@@ -1,0 +1,13 @@
+# Dependencies for the Gesture Slicer game (game.py).
+#
+# Install into your target virtual environment with:
+#   python -m pip install -r requirements.txt
+#
+# NOTE: mediapipe requires Python 3.9-3.12 for its official wheels on some OSes,
+# but 3.13/3.14 are supported by recent mediapipe builds. If mediapipe fails to
+# install, use Python 3.12.
+
+numpy>=1.24
+pygame-ce>=2.5.0
+opencv-python>=4.8
+mediapipe>=0.10
